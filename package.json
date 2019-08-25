@@ -2,8 +2,8 @@
   "name": "sample",
   "version": "0.0.1",
   "private": true,
-  "rnpm":{
-    "assest":[
+  "rnpm": {
+    "assest": [
       "./src/Assets/Fonts/"
     ]
   },

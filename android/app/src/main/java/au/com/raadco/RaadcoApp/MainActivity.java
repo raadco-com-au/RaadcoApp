@@ -1,4 +1,4 @@
-package com.sample;
+package au.com.raadco.RaadcoApp;
 
 import com.facebook.react.ReactActivity;
 
