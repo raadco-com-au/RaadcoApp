@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 
 import TabChats from './TabChats';
+import {SafeAreaView} from 'react-native';
 import {
     Container, Tab, Tabs, TabHeading, Text, Title, Button, Left, Right, Body, Icon, Content, View
 } from 'native-base';
@@ -10,23 +11,21 @@ import ContactUs from '../pages/ContactUs';
 class HomeScreen extends React.Component {
     render() {
         return (
-            <Container >
-            
-                {/* <Content> */}
+            <SafeAreaView style={{flex:1}}>
+                <Container>
                     <Tabs>
                         <Tab heading={<TabHeading><Text>AboutUs</Text></TabHeading>}>
-                            <AboutUs/>
+                            <AboutUs />
                         </Tab>
                         <Tab heading={<TabHeading><Text>Our Team</Text></TabHeading>}>
-                            <TabChats/>
+                            <TabChats />
                         </Tab>
                         <Tab heading={<TabHeading><Text>Contact Us</Text></TabHeading>}>
-                            <ContactUs/>
+                            <ContactUs />
                         </Tab>
                     </Tabs>
-               
-                {/* </Content> */}
-            </Container>
+                </Container>
+                </SafeAreaView>
         );
     }
 }
