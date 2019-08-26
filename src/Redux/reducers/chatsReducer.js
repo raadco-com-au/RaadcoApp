@@ -51,6 +51,13 @@ const initialState = {
 
             profileUrl: require("../../images/Mohsen.png")
         },
+        {
+            name: "Seyed Kazem Mousavi",
+            skill: "Frontend Developer",
+            text: `Kazem is a web developer with more than 3 years of experience in Html,Css,Javascript,JQuery,NodeJs,React,Php(Codeignaiter).`,
+
+            profileUrl: require("../../images/Kazem.jpg")
+        },
     ],
 };
 export default function (state = initialState, action) {
